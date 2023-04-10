@@ -21,13 +21,7 @@ function App() {
           <h1 className="text-3xl font-bold underline bg-blue-100">
             Hello world!
           </h1>
-          <Text type='h1'>My name is Saad</Text>
-          <Text type='h2'>My name is Saad</Text>
-          <Text type='h3'>My name is Saad</Text>
-          <Text type='h4'>My name is Saad</Text>
-          <Text type='h5'>My name is Saad</Text>
-          <Text type='h6'>My name is Saad</Text>
-          <Text type='p'>My name is <b> Saad</b></Text>
+          <Text type="h1">My name is Saad</Text>
           <Counter />
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
