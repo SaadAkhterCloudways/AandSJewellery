@@ -1,0 +1,23 @@
+.glbBtnPrimary:not(:disabled) {
+  @apply text-white bg-primary hover:bg-primary-600;
+}
+.glbBtnPrimary:not(:disabled).ant-btn-loading {
+  @apply text-white bg-primary hover:bg-primary opacity-100 cursor-wait;
+}
+.glbBtnPrimary:disabled {
+  @apply text-white bg-primary-300;
+}
+
+.glbBtnDanger:not(:disabled) {
+  @apply text-white bg-error hover:bg-error-600;
+}
+.glbBtnDanger:not(:disabled).ant-btn-loading {
+  @apply text-white bg-error hover:bg-error opacity-100 cursor-wait;
+}
+.glbBtnDanger:disabled {
+  @apply text-white bg-error-300 cursor-not-allowed;
+}
+
+glbBtnDanger .ant-btn-loading-icon {
+  transform: translateY(-4px);
+}/*# sourceMappingURL=Button.css.map */

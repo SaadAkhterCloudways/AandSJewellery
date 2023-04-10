@@ -1,7 +1,9 @@
-@import url(./Assets/Fonts/JosefinSans/stylesheet.css);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url(./Assets/Fonts/JosefinSans/stylesheet.css);
+
 body {
   @apply p-0 m-0 font-sans;
-}/*# sourceMappingURL=index.css.map */
+}

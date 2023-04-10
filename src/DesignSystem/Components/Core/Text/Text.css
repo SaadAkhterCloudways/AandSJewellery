@@ -1,0 +1,36 @@
+h1.h1 {
+  font-size: 54px;
+  @apply font-bold text-gray-600;
+}
+
+h2.h2 {
+  font-size: 48px;
+  @apply font-bold text-gray-600;
+}
+
+h3.h3 {
+  font-size: 42px;
+  @apply font-bold text-gray-600;
+}
+
+h4.h4 {
+  font-size: 36px;
+  @apply font-bold text-gray-600;
+}
+
+h5.h5 {
+  font-size: 30px;
+  @apply font-bold text-gray-600;
+}
+
+h6.h6 {
+  font-size: 24px;
+  @apply font-bold text-gray-600;
+}
+
+p, span {
+  @apply text-24 font-normal text-gray;
+}
+p b, span b {
+  @apply font-bold;
+}/*# sourceMappingURL=Text.css.map */

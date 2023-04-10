@@ -1,0 +1,16 @@
+$base-font-size: 24px; // base font size
+$heading-scale: 6; // amount of px headings grow from h6 to h1
+
+@for $size from 1 through 6 {
+  h#{$size}.h#{$size} {
+    font-size: $base-font-size + $heading-scale * (6 - $size);
+    @apply font-bold text-gray-600;
+  }
+}
+
+p,span{
+    @apply text-24 font-normal text-gray;
+    b{
+        @apply font-bold;
+    }
+}
